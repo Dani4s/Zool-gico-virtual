@@ -226,7 +226,7 @@ class Especial extends IMaritimo(IAereo(ITerrestre(Animal))) {
 // Ejemplos de animales
 class Leon extends Mamifero {
     constructor(nombre, edad) {
-        super(nombre, edad, 120, 4);
+        super(nombre, edad, 100, 4);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} ruge porque tiene hambre!`);
@@ -234,7 +234,7 @@ class Leon extends Mamifero {
 }
 class Cebra extends Mamifero {
     constructor(nombre, edad) {
-        super(nombre, edad, 110, 3);
+        super(nombre, edad, 80, 3);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} relincha porque tiene hambre!`);
@@ -242,7 +242,7 @@ class Cebra extends Mamifero {
 }
 class Elefante extends Mamifero {
     constructor(nombre, edad) {
-        super(nombre, edad, 60, 4);
+        super(nombre, edad, 70, 4);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} barrita porque tiene hambre!`);
@@ -250,7 +250,7 @@ class Elefante extends Mamifero {
 }
 class Aguila extends Ave {
     constructor(nombre, edad) {
-        super(nombre, edad, 200, 3);
+        super(nombre, edad, 100, 3);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} grazna porque tiene hambre!`);
@@ -258,7 +258,7 @@ class Aguila extends Ave {
 }
 class Buho extends Ave {
     constructor(nombre, edad) {
-        super(nombre, edad, 180, 2);
+        super(nombre, edad, 60, 2);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} ulula porque tiene hambre!`);
@@ -266,7 +266,7 @@ class Buho extends Ave {
 }
 class Tiburon extends Pez {
     constructor(nombre, edad) {
-        super(nombre, edad, 300, 3);
+        super(nombre, edad, 75, 3);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} hace burbujas porque tiene hambre!`);
@@ -274,7 +274,7 @@ class Tiburon extends Pez {
 }
 class Delfin extends Pez {
     constructor(nombre, edad) {
-        super(nombre, edad, 250, 3);
+        super(nombre, edad, 80, 3);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} chilla porque tiene hambre!`);
@@ -282,7 +282,7 @@ class Delfin extends Pez {
 }
 class Rana extends Anfibio {
     constructor(nombre, edad) {
-        super(nombre, edad, 180, 2);
+        super(nombre, edad, 90, 2);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} croa porque tiene hambre!`);
@@ -290,7 +290,7 @@ class Rana extends Anfibio {
 }
 class Salamandra extends Anfibio {
     constructor(nombre, edad) {
-        super(nombre, edad, 120, 3);
+        super(nombre, edad, 70, 3);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} silba porque tiene hambre!`);
@@ -298,7 +298,7 @@ class Salamandra extends Anfibio {
 }
 class Loro extends Especial {
     constructor(nombre, edad) {
-        super(nombre, edad, 150, 2);
+        super(nombre, edad, 100, 2);
     }
     hacerSonido() {
         log(`🚨${this.getEmoji()} ¡${this.nombre} imita sonidos porque tiene hambre!`);
